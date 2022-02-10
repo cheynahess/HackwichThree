@@ -25,6 +25,33 @@
                                     <action selector="ChangeColorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f5O-mW-5x1"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STR-Np-gyx">
+                                <rect key="frame" x="124" y="89" width="170" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Change Color 2"/>
+                                <connections>
+                                    <action selector="ChangeColor2ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fT1-Nf-yml"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4E-4S-x9s">
+                                <rect key="frame" x="124" y="294" width="167" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Change Color 3"/>
+                                <connections>
+                                    <action selector="ChangeColor3ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m47-Zc-My4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffS-hD-GmF">
+                                <rect key="frame" x="113" y="464" width="192" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Magic Button"/>
+                                <connections>
+                                    <action selector="MagicButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bXF-SD-2gF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

@@ -30,5 +30,30 @@ class ViewController: UIViewController {
             self.view.backgroundColor = UIColor.blue
         }
 }
+    
+    @IBAction func ChangeColor2ButtonPressed(_ sender: Any) {
+        if firstString == "The background color will turn red"
+        {
+            self.view.backgroundColor = UIColor.red
+        }
+    }
+    
+    
+    @IBAction func ChangeColor3ButtonPressed(_ sender: Any) {
+        if firstString == "The background color will turn blue"
+            self.view.backgroundcolor = UIColor.BLUE
+    };else{
+        self.view.backgroundColor = UIColor.blue
+    }
+    
+    @IBAction func MagicButtonPressed(_ sender: Any) {
+    
+    var thirdString = "The background color will turn orange"
+        var fourthString = "The background color will turn black"
+        if thirdString == "The background color will turn orange"
+            self.view.backgroundColor = UIColor.green
+    }
+    print "I completed both problem sets"
+    }
 }
 
